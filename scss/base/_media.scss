@@ -1,0 +1,189 @@
+@import "./variables";
+
+@media screen and (max-width: 500px){
+    .main__bg{
+        min-height: 100vh;
+        min-width: 100vw;
+        background-image: url("../img/Copia\ de\ Fondo\ marzo.jpg");
+        background-size: cover;
+
+        h1{
+            color: $color-1;
+            text-align: center;
+            padding-top: 2vh;
+            padding-bottom: 3vh;
+            padding-left: 0;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            font-size: 4rem;
+        }
+    
+        .subtitulo__index{
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            color: dimgrey;
+            padding-left: none;
+            text-align: center;
+        }
+    }
+
+    .main-estudios{
+       
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3,h4,h5{
+                text-align: center;
+                padding-top: 2vh;
+            }
+        }
+
+        img{
+        padding: 0.25rem;
+        max-width: 100%;
+        height: auto;
+        }
+    }
+
+    h1{
+        color: $color-1;
+        font-family: 'Rubik';
+        font-size: 3rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .main__aboutme{
+        padding-top: 9vh;
+
+        .div__holasoy{
+            padding-top: 2vh;
+        }
+
+        .about__meimg{
+            padding-top: 2vh;
+            padding-bottom: 5vh;
+            width: 100vw;
+
+            img{
+                width: 95vh;
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+            }
+        }
+    }
+
+    footer{
+        .newsletter__footer{
+            padding-bottom: 2%;
+
+        }
+        
+        .newsletter__email{
+            padding: 2%; 
+            width: 90vw; 
+            height: 5vh;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            display: flex;
+            align-items: center;
+        }
+
+        .btn__sendFooter{
+            background-color: black;
+            color: #d0d0d0;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            border: 1px solid #d0d0d0;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            width: 50%;
+        }
+    }
+
+    main{
+        .formulario__nombre{
+            display: grid;
+            grid-template-columns: 1fr;
+            
+            .formulario__div__row{
+                color: $color-1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                grid-template-columns: none;
+                
+                .formulario__div__column{
+                    margin-bottom: 3vh;
+                    margin-right: 0px;
+                    display: flex;
+                    flex-direction: column;
+    
+                    .formulario__placeholder{
+                        height: $placeholder;
+                        justify-content: center;
+                        padding-left: 1rem;
+                    }
+                }
+            
+                .formulario__apellido{
+                    margin-bottom: 3vh;
+                    margin-left: 0px;
+                    display: flex;
+                    flex-direction: column;
+    
+                    .formulario__placeholder{
+                        height: $placeholder;
+                        justify-content: center;
+                        padding-left: 1rem;
+                    }
+                    
+                }
+            }
+    
+            .formulario__ultima__seccion{
+                margin-top: 2vh;
+                margin-bottom: 5vh;
+                display: flex;
+                flex-direction: column;
+    
+    
+                .btn {
+                    @include flex-center;
+                    width: 17vh;
+                    background-color: $color-3;
+                    color: #d0d0d0;
+                    @include tipografia-botones;
+    
+                    &:hover{
+                        background: radial-gradient($color-1, rgb(194, 16, 161));
+                        color: #d0d0d0;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-estudios{
+        img{
+            width: 100px;
+            @include flex-center;
+        }
+    }
+
+    .skills__row{
+        div{
+            width: 50%;
+            @include flex-center;
+            align-items: center;
+        }
+    }
+}

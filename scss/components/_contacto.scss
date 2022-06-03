@@ -1,0 +1,64 @@
+@import "../base/variables";
+main{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    .bg__contact{
+        background-color: $color-6; 
+        color: $color-2;
+    }
+
+    .formulario__nombre{
+        .formulario__div__row{
+            color: $color-principal;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+            .formulario__div__column{
+                margin-bottom: 3vh;
+                margin-right: 2vh;
+                @extend %flex-column;
+
+                .formulario__placeholder{
+                    height: $placeholder;
+                    justify-content: center;
+                    padding-left: 1rem;
+                }
+            }
+        
+            .formulario__apellido{
+                margin-bottom: 3vh;
+                margin-left: 2vh;
+                @extend %flex-column;
+
+                .formulario__placeholder{
+                    height: $placeholder;
+                    justify-content: center;
+                    padding-left: 1rem;
+                }
+                
+            }
+        }
+
+        .formulario__ultima__seccion{
+            margin-top: 2vh;
+            margin-bottom: 5vh;
+            @extend %flex-column;
+
+            .btn {
+                @include flex-center;
+                width: 17vh;
+                background-color: $color-3;
+                color: #d0d0d0;
+                @include tipografia-botones;
+
+                &:hover{
+                    background: radial-gradient(rgb(255, 20, 212), rgb(194, 16, 161));
+                    color: #d0d0d0;
+                }
+            }
+        }
+    }
+
+}
+

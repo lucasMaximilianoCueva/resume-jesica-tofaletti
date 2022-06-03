@@ -1,0 +1,55 @@
+$color-principal: #454545;
+$placeholder: 47px;
+
+$color-1: rgb(255, 20, 212);
+$color-2: rgb(76, 76, 76);
+$color-3: black;
+$color-4: rgb(254, 246, 11);
+$color-5: white;
+$color-6: rgb(184, 184, 184);
+
+// MAPA
+$tamanio-tipografia:(
+    title: 5rem,
+    subtitle: 3rem,
+    paragraph: 1rem,
+);
+
+$familia-tipo:(
+    rubikfam: 'Rubik',
+);
+
+$colores:(
+    color-1: rgb(255, 20, 212),
+    color-2: rgb(76, 76, 76),
+    color-3: black,
+    color-4: rgb(254, 246, 11),
+);
+
+@mixin tipografia-botones{
+    font-family:'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 1px solid #d0d0d0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+};
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+%flex-center {
+    @include flex-center()
+}
+
+.flex-center {
+    @extend %flex-center
+}
+
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}

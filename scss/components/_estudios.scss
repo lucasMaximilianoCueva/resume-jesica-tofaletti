@@ -1,0 +1,21 @@
+@import "../base/variables";
+
+h1{
+    font-size: map-get($tamanio-tipografia, subtitle);
+    color: map-get($colores, color-1);
+    font-family: map-get($familia-tipo, rubikfam);
+}
+
+.bg__empresa{
+    background-color: $color-2;
+    color: $color-1;
+    margin-bottom: 2rem;
+}
+
+.main-estudios{
+    img{
+    padding: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    }
+}

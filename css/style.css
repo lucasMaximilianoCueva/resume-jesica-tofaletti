@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  color: #ff14d4;
+  font-family: 'Rubik';
+  font-size: 64px;
+  padding-bottom: 2rem; }
+
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
+
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
+
+.main__bg {
+  min-height: 90vh;
+  min-width: 100vw;
+  background-image: url("../img/bg-index-design.png");
+  background-size: cover;
+  margin: 0%; }
+  .main__bg h1 {
+    color: #ff14d4;
+    text-align: start;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 10%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 5rem; }
+  .main__bg .subtitulo__index {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    color: #4c4c4c;
+    padding-left: 10%; }
+
+a:hover {
+  background-color: #ff14d4;
+  transition: all 0.9s ease; }
+
+.btn {
+  background-color: black;
+  color: #d0d0d0;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 1px solid #d0d0d0;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+  .btn:hover {
+    background: radial-gradient(#ff14d4, #c210a1);
+    color: #d0d0d0; }
+
+button:hover {
+  background-color: #ff14d4; }
+
+.main__aboutme {
+  padding-top: 5vh; }
+  .main__aboutme .div__holasoy {
+    padding-top: 5vh; }
+  .main__aboutme .about__meimg {
+    padding-top: 5vh;
+    padding-bottom: 5vh; }
+  .main__aboutme .aboutme__adobe {
+    padding-top: 2vh;
+    padding-bottom: 5vh; }
+    .main__aboutme .aboutme__adobe img {
+      width: 10vh;
+      padding-top: 5vh; }
+
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
+
+main {
+  margin-top: 5vh;
+  margin-bottom: 5vh; }
+  main .bg__contact {
+    background-color: #b8b8b8;
+    color: #4c4c4c; }
+  main .formulario__nombre .formulario__div__row {
+    color: #454545;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    main .formulario__nombre .formulario__div__row .formulario__div__column {
+      margin-bottom: 3vh;
+      margin-right: 2vh; }
+      main .formulario__nombre .formulario__div__row .formulario__div__column .formulario__placeholder {
+        height: 47px;
+        justify-content: center;
+        padding-left: 1rem; }
+    main .formulario__nombre .formulario__div__row .formulario__apellido {
+      margin-bottom: 3vh;
+      margin-left: 2vh; }
+      main .formulario__nombre .formulario__div__row .formulario__apellido .formulario__placeholder {
+        height: 47px;
+        justify-content: center;
+        padding-left: 1rem; }
+  main .formulario__nombre .formulario__ultima__seccion {
+    margin-top: 2vh;
+    margin-bottom: 5vh; }
+    main .formulario__nombre .formulario__ultima__seccion .btn {
+      display: flex;
+      justify-content: center;
+      width: 17vh;
+      background-color: black;
+      color: #d0d0d0;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      border: 1px solid #d0d0d0;
+      padding-left: 2rem;
+      padding-right: 2rem; }
+      main .formulario__nombre .formulario__ultima__seccion .btn:hover {
+        background: radial-gradient(#ff14d4, #c210a1);
+        color: #d0d0d0; }
+
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
+
+h1 {
+  font-size: 3rem;
+  color: #ff14d4;
+  font-family: "Rubik"; }
+
+.bg__empresa {
+  background-color: #4c4c4c;
+  color: #ff14d4;
+  margin-bottom: 2rem; }
+
+.main-estudios img {
+  padding: 0.25rem;
+  max-width: 100%;
+  height: auto; }
+
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
+
+.bg__empresa {
+  background-color: #b8b8b8;
+  color: #4c4c4c;
+  margin-bottom: 2rem; }
+
+a:hover {
+  background-color: #ff14d4;
+  transition: all 0.9s ease; }
+
+.btn {
+  background-color: black;
+  color: #d0d0d0;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 1px solid #d0d0d0;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+  .btn:hover {
+    background: radial-gradient(#ff14d4, #c210a1);
+    color: #d0d0d0; }
+
+button:hover {
+  background-color: #ff14d4; }
+
+footer .newsletter__footer {
+  padding-bottom: 2%; }
+
+footer .newsletter__email {
+  padding: 1%;
+  width: 15vw;
+  height: 3vh; }
+
+footer .btn__sendFooter {
+  background-color: black;
+  color: #d0d0d0;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 1px solid #d0d0d0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 20%; }
+
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
+
+@media screen and (max-width: 500px) {
+  .main__bg {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url("../img/Copia de Fondo marzo.jpg");
+    background-size: cover; }
+    .main__bg h1 {
+      color: #ff14d4;
+      text-align: center;
+      padding-top: 2vh;
+      padding-bottom: 3vh;
+      padding-left: 0;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      font-size: 4rem; }
+    .main__bg .subtitulo__index {
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      color: dimgrey;
+      padding-left: none;
+      text-align: center; }
+  .main-estudios div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-estudios div h3, .main-estudios div h4, .main-estudios div h5 {
+      text-align: center;
+      padding-top: 2vh; }
+  .main-estudios img {
+    padding: 0.25rem;
+    max-width: 100%;
+    height: auto; }
+  h1 {
+    color: #ff14d4;
+    font-family: 'Rubik';
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-align: center; }
+  .main__aboutme {
+    padding-top: 9vh; }
+    .main__aboutme .div__holasoy {
+      padding-top: 2vh; }
+    .main__aboutme .about__meimg {
+      padding-top: 2vh;
+      padding-bottom: 5vh;
+      width: 100vw; }
+      .main__aboutme .about__meimg img {
+        width: 95vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh; }
+  footer .newsletter__footer {
+    padding-bottom: 2%; }
+  footer .newsletter__email {
+    padding: 2%;
+    width: 90vw;
+    height: 5vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center; }
+  footer .btn__sendFooter {
+    background-color: black;
+    color: #d0d0d0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 1px solid #d0d0d0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 50%; }
+  main .formulario__nombre {
+    display: grid;
+    grid-template-columns: 1fr; }
+    main .formulario__nombre .formulario__div__row {
+      color: #ff14d4;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      grid-template-columns: none; }
+      main .formulario__nombre .formulario__div__row .formulario__div__column {
+        margin-bottom: 3vh;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column; }
+        main .formulario__nombre .formulario__div__row .formulario__div__column .formulario__placeholder {
+          height: 47px;
+          justify-content: center;
+          padding-left: 1rem; }
+      main .formulario__nombre .formulario__div__row .formulario__apellido {
+        margin-bottom: 3vh;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column; }
+        main .formulario__nombre .formulario__div__row .formulario__apellido .formulario__placeholder {
+          height: 47px;
+          justify-content: center;
+          padding-left: 1rem; }
+    main .formulario__nombre .formulario__ultima__seccion {
+      margin-top: 2vh;
+      margin-bottom: 5vh;
+      display: flex;
+      flex-direction: column; }
+      main .formulario__nombre .formulario__ultima__seccion .btn {
+        display: flex;
+        justify-content: center;
+        width: 17vh;
+        background-color: black;
+        color: #d0d0d0;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        border: 1px solid #d0d0d0;
+        padding-left: 2rem;
+        padding-right: 2rem; }
+        main .formulario__nombre .formulario__ultima__seccion .btn:hover {
+          background: radial-gradient(#ff14d4, #c210a1);
+          color: #d0d0d0; }
+  .main-estudios img {
+    width: 100px;
+    display: flex;
+    justify-content: center; }
+  .skills__row div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; } }

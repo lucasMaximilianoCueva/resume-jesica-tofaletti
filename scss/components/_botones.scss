@@ -1,0 +1,20 @@
+a:hover{
+    background-color: $color-1;
+    transition: all 0.9s ease;
+}
+
+.btn {
+    background-color: $color-3;
+    color: #d0d0d0;
+    @include tipografia-botones;
+
+    &:hover{
+        background: radial-gradient(rgb(255, 20, 212), rgb(194, 16, 161));
+        color: #d0d0d0;
+    }
+    
+}
+
+button:hover{
+    background-color: $color-1;
+}

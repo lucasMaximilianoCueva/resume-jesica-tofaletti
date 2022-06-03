@@ -1,0 +1,20 @@
+@import './botones';
+footer{
+    .newsletter__footer{
+        padding-bottom: 2%;
+    }
+    
+    .newsletter__email{
+        padding: 1%; 
+        width: 15vw; 
+        height: 3vh;
+    }
+    
+    .btn__sendFooter{
+        background-color: $color-3;
+        color: #d0d0d0;
+        @include tipografia-botones;
+        width: 20%;
+    }
+}
+
