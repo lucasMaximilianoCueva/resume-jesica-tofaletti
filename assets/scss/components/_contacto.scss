@@ -10,7 +10,7 @@ main{
 
     .formulario__nombre{
         .formulario__div__row{
-            color: $color-principal;
+            color: $color-1;
             display: grid;
             grid-template-columns: 1fr 1fr;
             
@@ -43,6 +43,7 @@ main{
         .formulario__ultima__seccion{
             margin-top: 2vh;
             margin-bottom: 5vh;
+            color: $color-1;
             @extend %flex-column;
 
             .btn {
